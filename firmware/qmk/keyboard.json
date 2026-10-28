@@ -1,0 +1,32 @@
+{
+    "manufacturer": "Adham Hamada",
+    "keyboard_name": "padpad",
+    "maintainer": "doma20091212-creator",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false
+    },
+    "matrix_pins": {
+      "direct":[["GP27", "GP6", "GP1", "GP28", "GP29", "GP2"]]
+    },
+    "processor": "RP2040",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x4148",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT":{"layout":[
+            {"label": "SW1", "matrix": [0,0], "x": 0, "y": 0},
+            {"label": "SW3", "matrix": [0,1], "x": 1, "y": 0},
+            {"label": "SW3", "matrix": [0,2], "x": 2, "y": 0},
+            {"label": "SW4", "matrix": [0,3], "x": 0, "y": 1},
+            {"label": "SW5", "matrix": [0,4], "x": 2, "y":1},
+            {"label": "ENC Click", "matrix": [0,5], "x":1, "y":1}
+        ]
+      }         
+    }
+}
